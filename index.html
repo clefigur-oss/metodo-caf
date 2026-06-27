@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Método CAF — Diagnóstico Financeiro</title>
+<style>
+*,*::before,*::after{box-sizing:border-box;margin:0;padding:0}
+body{font-family:'Segoe UI',system-ui,sans-serif;background:#F5F7FA;color:#1C2333;min-height:100vh;display:flex;flex-direction:column}
+.hero{background:#1A3C5E;padding:60px 24px 52px;text-align:center}
+.badge{display:inline-block;background:#E8930A;color:#fff;font-weight:700;font-size:12px;padding:4px 12px;border-radius:6px;letter-spacing:.06em;margin-bottom:20px}
+.hero h1{color:#fff;font-size:32px;font-weight:700;margin-bottom:10px;line-height:1.25}
+.hero p{color:rgba(255,255,255,.7);font-size:16px;max-width:480px;margin:0 auto;line-height:1.6}
+.cards{max-width:700px;margin:0 auto;padding:40px 16px;display:grid;grid-template-columns:1fr 1fr;gap:20px}
+.card{background:#fff;border-radius:14px;border:1px solid #DDE2EA;box-shadow:0 2px 16px rgba(26,60,94,.08);padding:28px 24px;text-align:center}
+.card-icon{font-size:40px;margin-bottom:16px}
+.card h2{font-size:18px;font-weight:700;color:#1A3C5E;margin-bottom:8px}
+.card p{font-size:13.5px;color:#6B7385;line-height:1.6;margin-bottom:20px}
+.btn{display:inline-block;padding:12px 24px;border-radius:8px;font-size:14px;font-weight:600;text-decoration:none;transition:all .15s}
+.btn-primary{background:#1A3C5E;color:#fff}
+.btn-primary:hover{background:#0f2740}
+.btn-secondary{background:#fff;color:#1A3C5E;border:1.5px solid #1A3C5E}
+.btn-secondary:hover{background:#EBF3FA}
+.card.destaque{border-color:#E8930A;border-width:2px}
+.card.destaque .card-icon::after{content:" ⭐";font-size:16px}
+.footer{text-align:center;padding:32px 16px;color:#6B7385;font-size:13px;border-top:1px solid #DDE2EA;margin-top:auto}
+@media(max-width:500px){.cards{grid-template-columns:1fr}.hero h1{font-size:24px}}
+</style>
+</head>
+<body>
+<div class="hero">
+  <div class="badge">MÉTODO CAF</div>
+  <h1>Diagnóstico Financeiro</h1>
+  <p>Estruturação financeira com método para pequenas empresas de serviços e construção civil</p>
+</div>
+<div class="cards">
+  <div class="card destaque">
+    <div class="card-icon">📋</div>
+    <h2>Sou cliente</h2>
+    <p>Responda o diagnóstico financeiro da sua empresa. Leva cerca de 5 minutos.</p>
+    <a class="btn btn-primary" href="MetodoCAF_Cliente.html">Iniciar diagnóstico →</a>
+  </div>
+  <div class="card">
+    <div class="card-icon">📊</div>
+    <h2>Sou consultora</h2>
+    <p>Acesse o painel para visualizar respostas e gerar o relatório completo.</p>
+    <a class="btn btn-secondary" href="MetodoCAF_Consultora.html">Painel da consultora →</a>
+  </div>
+</div>
+<div class="footer">Método CAF de Estruturação Financeira · Uso exclusivo da assessoria</div>
+</body>
+</html>
